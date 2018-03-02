@@ -2,8 +2,6 @@ package rest
 
 import (
 	"net/http"
-	"regexp"
-	"strconv"
 	"time"
 )
 
@@ -16,9 +14,11 @@ func (this *UserController) Init(context *Context)  {
 	this.BaseController.Init(context)
 }
 
-func (this *UserController) RegisterRouters()map[string]func(w http.ResponseWriter,r *http.Request)  {
+func (this *UserController) RegisterRoutes()map[string]func(w http.ResponseWriter,r *http.Request)  {
 	routeMap := make(map[string]func(w http.ResponseWriter, r *http.Request))
-	routeMap["/api/user/login"] = this.Wrap()
+	routeMap["/api/user/login"] = this.Wrap(this.Login,USER_ROLE_GUEST)
+	LogDebug("user_controller RegisterRouters")
+	return routeMap
 }
 
 func (this *UserController) Login(writer http.ResponseWriter, request *http.Request) *WebResult  {
@@ -38,7 +38,7 @@ func (this *UserController) Login(writer http.ResponseWriter, request *http.Requ
 	expiration := time.Now()
 	expiration = expiration.AddDate(0,0,7)
 
-	/*
+
 	//持久化用户的session.
 	session := &Session{
 		UserUuid:   user.Uuid,
@@ -48,12 +48,18 @@ func (this *UserController) Login(writer http.ResponseWriter, request *http.Requ
 	session.ModifyTime = time.Now()
 	session.CreateTime = time.Now()
 	session = this.sessionDao.Create(session)
-	*/
+
 	//设置用户的cookie
 	cookie := http.Cookie{
 		Name:		COOKIE_AUTH_KEY,
 		Path: 		"/",
-		Value:
+		Value: 		session.UserUuid,
+		Expires: 	expiration,
 	}
+	http.SetCookie(writer,&cookie)
+	user.LastTime = time.Now()
+	user.LastIp = GetIpAddress(request)
+	this.userDao.Save(user)
 
+	return this.Success(user)
 }

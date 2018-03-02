@@ -19,9 +19,11 @@ func NewRouter(context *Context) *Router  {
 		context :		context,
 		routeMap: 		make(map[string]func(w http.ResponseWriter,r *http.Request)),
 	}
+	LogDebug("RegisterRoutes")
 	for _,controller := range context.ControllerMap{
 		routes := controller.RegisterRoutes()
 		for k,v := range routes{
+			LogDebug(k)
 			router.routeMap[k] = v
 		}
 	}

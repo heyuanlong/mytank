@@ -49,7 +49,9 @@ func (this *Context) registerBean(bean interface{}) {
 			LogError(fmt.Sprintf("【%s】已经被注册了，跳过。", typeName))
 		}else{
 			this.BeanMap[typeName] = element
+			LogDebug("BeanMap:" + typeName)
 			if controller, ok1 := bean.(IController); ok1 {
+				LogDebug("ControllerMap:" + typeName)
 				this.ControllerMap[typeName] = controller
 			}
 		}
@@ -62,6 +64,9 @@ func (this *Context) registerBean(bean interface{}) {
 //注册各个Beans
 func (this *Context) registerBeans() {
 	this.registerBean( new(UserDao) )
+	this.registerBean( new(SessionDao))
+
+	this.registerBean( new(UserController))
 }
 
 func (this *Context) GetBean(bean interface{}) IBean {

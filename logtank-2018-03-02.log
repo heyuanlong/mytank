@@ -155,3 +155,62 @@
 [Debug]2018/03/02 15:57:02 D:\language\gopath\src\mytank/html/index.html
 [Error]2018/03/02 15:57:03 全局异常: 404 not found:/favicon.ico
 [Debug]2018/03/02 15:57:03 D:\language\gopath\src\mytank/html/favicon.ico
+[Info]2018/03/02 22:44:29 App started at http://localhost:6010
+[Debug]2018/03/02 22:45:19 C:\gopath\src\mytank/html/index.html
+[Debug]2018/03/02 22:45:20 C:\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 22:45:20 全局异常: 404 not found:/favicon.ico
+[Error]2018/03/02 22:45:46 全局异常: 没有找到能够处理/api/user/login的方法
+
+[Debug]2018/03/02 22:45:46 C:\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 22:45:46 全局异常: 404 not found:/favicon.ico
+[Error]2018/03/02 22:46:00 全局异常: 没有找到能够处理/api/user/logi的方法
+
+[Debug]2018/03/02 22:46:01 C:\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 22:46:01 全局异常: 404 not found:/favicon.ico
+[Info]2018/03/02 22:48:20 App started at http://localhost:6010
+[Error]2018/03/02 22:48:25 全局异常: 没有找到能够处理/api/user/login的方法
+
+[Debug]2018/03/02 22:48:26 C:\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 22:48:26 全局异常: 404 not found:/favicon.ico
+[Info]2018/03/02 22:52:57 App started at http://localhost:6010
+[Debug]2018/03/02 22:53:51 RegisterRoutes
+[Info]2018/03/02 22:53:51 App started at http://localhost:6010
+[Info]2018/03/02 22:56:48 RegisterRoutes
+[Info]2018/03/02 22:56:48 App started at http://localhost:6010
+[Info]2018/03/02 22:58:13 App started at http://localhost:6010
+[Debug]2018/03/02 22:58:13 BeanMap:*rest.UserDao
+[Debug]2018/03/02 22:58:13 ControllerMap:*rest.UserController
+[Debug]2018/03/02 22:58:13 BeanMap:*rest.SessionDao
+[Debug]2018/03/02 22:58:13 RegisterRoutes
+[Debug]2018/03/02 22:58:13 BeanMap:*rest.UserController
+[Debug]2018/03/02 23:04:17 ControllerMap:*rest.UserController
+[Debug]2018/03/02 23:04:17 BeanMap:*rest.UserController
+[Debug]2018/03/02 23:04:17 BeanMap:*rest.UserDao
+[Debug]2018/03/02 23:04:17 RegisterRoutes
+[Info]2018/03/02 23:04:17 App started at http://localhost:6010
+[Debug]2018/03/02 23:04:17 BeanMap:*rest.SessionDao
+[Debug]2018/03/02 23:06:10 BeanMap:*rest.UserController
+[Info]2018/03/02 23:06:10 App started at http://localhost:6010
+[Debug]2018/03/02 23:06:10 BeanMap:*rest.UserDao
+[Debug]2018/03/02 23:06:10 BeanMap:*rest.SessionDao
+[Debug]2018/03/02 23:06:10 RegisterRoutes
+[Debug]2018/03/02 23:06:10 ControllerMap:*rest.UserController
+[Debug]2018/03/02 23:06:10 BaseController RegisterRouters
+[Debug]2018/03/02 23:08:00 ControllerMap:*rest.UserController
+[Debug]2018/03/02 23:08:00 user_controller RegisterRouters
+[Debug]2018/03/02 23:08:00 RegisterRoutes
+[Debug]2018/03/02 23:08:00 /api/user/login
+[Info]2018/03/02 23:08:00 App started at http://localhost:6010
+[Debug]2018/03/02 23:08:00 BeanMap:*rest.SessionDao
+[Debug]2018/03/02 23:08:00 BeanMap:*rest.UserController
+[Debug]2018/03/02 23:08:00 BeanMap:*rest.UserDao
+[Debug]2018/03/02 23:08:08 C:\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 23:08:08 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 23:08:09 C:\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 23:08:09 全局异常: 404 not found:/favicon.ico
+[Error]2018/03/02 23:08:13 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 23:08:13 C:\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 23:08:18 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 23:08:18 C:\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 23:08:45 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 23:08:45 C:\gopath\src\mytank/html/favicon.ico

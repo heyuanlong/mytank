@@ -29,9 +29,16 @@ func (this *UserDao) Create(user *User) *User{
 
 func (this *UserDao) FindByEmail(email string) *User{
 	var user *User = &User{}
-	db := this.context.DB.Where(&User{Email:email}).first(user)
+	db := this.context.DB.Where(&User{Email:email}).First(user)
 	if db.Error != nil {
 		return nil
 	}
+	return user
+}
+
+func (this *UserDao) Save(user *User) *User{
+	user.ModifyTime = time.Now()
+	db := this.context.DB.Save(user)
+	this.PanicError(db.Error)
 	return user
 }
