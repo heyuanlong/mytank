@@ -1,0 +1,157 @@
+[Warning]2018/03/02 15:44:05 无法找到配置文件：D:\language\gopath\src\mytank/conf/tank.json,错误：open D:\language\gopath\src\mytank/conf/tank.json: The system cannot find the file specified.
+将使用config.go中的默认配置项。
+[Info]2018/03/02 15:44:05 App started at http://localhost:6010
+[Debug]2018/03/02 15:44:33 D:\language\gopath\src\mytank/html/index.html
+[Debug]2018/03/02 15:44:34 D:\language\gopath\src\mytank/html/favicon.ico
+[Info]2018/03/02 15:49:00 App started at http://localhost:6010
+[Info]2018/03/02 15:49:00 无法找到配置文件：D:\language\gopath\src\mytank/conf/tank.json,错误：open D:\language\gopath\src\mytank/conf/tank.json: The system cannot find the file specified.
+将使用config.go中的默认配置项。
+[Info]2018/03/02 15:49:34 App started at http://localhost:6010
+[Info]2018/03/02 15:49:34 无法找到配置文件：D:\language\gopath\src\mytank/conf/tank.json,错误：open D:\language\gopath\src\mytank/conf/tank.json: The system cannot find the file specified.
+将使用config.go中的默认配置项。
+[Info]2018/03/02 15:50:12 App started at http://localhost:6010
+[Info]2018/03/02 15:51:41 App started at http://localhost:6010
+[Info]2018/03/02 15:53:41 App started at http://localhost:6010
+[Debug]2018/03/02 15:53:49 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:53:49 全局异常: 404 not found:/index.html
+[Debug]2018/03/02 15:53:49 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:53:49 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:53:50 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:53:50 全局异常: 404 not found:/index.html
+[Error]2018/03/02 15:53:50 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:53:50 D:\language\gopath\src\mytank/html/favicon.ico
+[Debug]2018/03/02 15:53:51 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:53:51 全局异常: 404 not found:/index.html
+[Error]2018/03/02 15:53:51 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:53:51 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:53:51 全局异常: 404 not found:/index.html
+[Debug]2018/03/02 15:53:51 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:53:51 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:53:51 D:\language\gopath\src\mytank/html/favicon.ico
+[Debug]2018/03/02 15:53:51 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:53:51 全局异常: 404 not found:/index.html
+[Error]2018/03/02 15:53:51 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:53:51 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:53:51 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:53:51 全局异常: 404 not found:/index.html
+[Debug]2018/03/02 15:53:51 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:53:51 全局异常: 404 not found:/favicon.ico
+[Error]2018/03/02 15:53:52 全局异常: 404 not found:/index.html
+[Debug]2018/03/02 15:53:52 D:\language\gopath\src\mytank/html/index.html
+[Debug]2018/03/02 15:53:52 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:53:52 全局异常: 404 not found:/favicon.ico
+[Error]2018/03/02 15:53:52 全局异常: 404 not found:/index.html
+[Debug]2018/03/02 15:53:52 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:53:52 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:53:52 D:\language\gopath\src\mytank/html/favicon.ico
+[Debug]2018/03/02 15:53:52 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:53:52 全局异常: 404 not found:/index.html
+[Error]2018/03/02 15:53:52 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:53:52 D:\language\gopath\src\mytank/html/favicon.ico
+[Debug]2018/03/02 15:53:53 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:53:53 全局异常: 404 not found:/index.html
+[Error]2018/03/02 15:53:53 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:53:53 D:\language\gopath\src\mytank/html/favicon.ico
+[Debug]2018/03/02 15:53:53 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:53:53 全局异常: 404 not found:/index.html
+[Error]2018/03/02 15:53:53 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:53:53 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:53:53 全局异常: 404 not found:/index.html
+[Debug]2018/03/02 15:53:53 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:53:53 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:53:53 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:53:54 全局异常: 404 not found:/index.html
+[Debug]2018/03/02 15:53:54 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:53:54 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:53:54 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:53:54 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:53:54 全局异常: 404 not found:/index.html
+[Debug]2018/03/02 15:53:54 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:53:54 全局异常: 404 not found:/favicon.ico
+[Error]2018/03/02 15:53:54 全局异常: 404 not found:/index.html
+[Debug]2018/03/02 15:53:54 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:53:54 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:53:54 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:53:54 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:53:54 全局异常: 404 not found:/index.html
+[Error]2018/03/02 15:53:54 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:53:54 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:53:55 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:53:55 全局异常: 404 not found:/index.html
+[Error]2018/03/02 15:53:55 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:53:55 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:53:55 全局异常: 404 not found:/index.html
+[Debug]2018/03/02 15:53:55 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:53:55 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:53:55 D:\language\gopath\src\mytank/html/favicon.ico
+[Debug]2018/03/02 15:53:55 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:53:55 全局异常: 404 not found:/index.html
+[Debug]2018/03/02 15:53:55 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:53:55 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:53:55 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:53:55 全局异常: 404 not found:/index.html
+[Debug]2018/03/02 15:53:56 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:53:56 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:53:56 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:53:56 全局异常: 404 not found:/index.html
+[Error]2018/03/02 15:53:56 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:53:56 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:53:56 全局异常: 404 not found:/index.html
+[Debug]2018/03/02 15:53:56 D:\language\gopath\src\mytank/html/index.html
+[Debug]2018/03/02 15:53:56 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:53:56 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:53:56 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:53:56 全局异常: 404 not found:/index.html
+[Debug]2018/03/02 15:53:56 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:53:56 全局异常: 404 not found:/favicon.ico
+[Error]2018/03/02 15:54:30 全局异常: 404 not found:/index.html
+[Debug]2018/03/02 15:54:30 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:54:30 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:54:30 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:54:35 全局异常: 404 not found:/sdf.html
+[Debug]2018/03/02 15:54:35 D:\language\gopath\src\mytank/html/sdf.html
+[Error]2018/03/02 15:54:35 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:54:35 全局异常: 404 not found:/favicon.ico
+[Error]2018/03/02 15:55:36 全局异常: 404 not found:/sdf.html
+[Debug]2018/03/02 15:55:36 D:\language\gopath\src\mytank/html/sdf.html
+[Debug]2018/03/02 15:55:36 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:55:36 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:55:38 全局异常: 404 not found:/index.html
+[Debug]2018/03/02 15:55:38 D:\language\gopath\src\mytank/html/index.html
+[Debug]2018/03/02 15:55:38 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:55:38 全局异常: 404 not found:/favicon.ico
+[Error]2018/03/02 15:55:39 全局异常: 404 not found:/index.html
+[Debug]2018/03/02 15:55:39 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:55:39 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:55:39 D:\language\gopath\src\mytank/html/favicon.ico
+[Debug]2018/03/02 15:55:40 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:55:40 全局异常: 404 not found:/index.html
+[Debug]2018/03/02 15:55:40 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:55:40 全局异常: 404 not found:/favicon.ico
+[Error]2018/03/02 15:55:41 全局异常: 404 not found:/index.html
+[Debug]2018/03/02 15:55:41 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:55:41 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:55:41 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:55:41 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:55:41 全局异常: 404 not found:/index.html
+[Error]2018/03/02 15:55:41 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:55:41 D:\language\gopath\src\mytank/html/favicon.ico
+[Info]2018/03/02 15:56:39 App started at http://localhost:6010
+[Debug]2018/03/02 15:56:41 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:56:41 全局异常: 404 not found:/index.html
+[Debug]2018/03/02 15:56:41 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:56:41 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:56:41 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:56:41 全局异常: 404 not found:/index.html
+[Error]2018/03/02 15:56:41 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:56:41 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:56:42 全局异常: 404 not found:/index.html
+[Debug]2018/03/02 15:56:42 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:56:42 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:56:42 D:\language\gopath\src\mytank/html/favicon.ico
+[Debug]2018/03/02 15:57:02 D:\language\gopath\src\mytank/html/index.html
+[Debug]2018/03/02 15:57:02 D:\language\gopath\src\mytank/html/favicon.ico
+[Error]2018/03/02 15:57:02 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:57:02 D:\language\gopath\src\mytank/html/index.html
+[Error]2018/03/02 15:57:03 全局异常: 404 not found:/favicon.ico
+[Debug]2018/03/02 15:57:03 D:\language\gopath\src\mytank/html/favicon.ico
