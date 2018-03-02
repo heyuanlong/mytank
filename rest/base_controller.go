@@ -38,3 +38,20 @@ func (this *BaseController) Wrap(f func(writer http.ResponseWriter, request *htt
 
 	}
 }
+
+//返回错误的结果。
+func (this *BaseController) Error(err interface{}) *WebResult {
+	var webResult *WebResult = nil
+	if value, ok := err.(string); ok {
+		webResult = &WebResult{Code: RESULT_CODE_UTIL_EXCEPTION, Msg: value}
+	} else if value, ok := err.(int); ok {
+		webResult = ConstWebResult(value)
+	} else if value, ok := err.(*WebResult); ok {
+		webResult = value
+	} else if value, ok := err.(error); ok {
+		webResult = &WebResult{Code: RESULT_CODE_UTIL_EXCEPTION, Msg: value.Error()}
+	} else {
+		webResult = &WebResult{Code: RESULT_CODE_UTIL_EXCEPTION, Msg: "服务器未知错误"}
+	}
+	return webResult
+}

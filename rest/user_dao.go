@@ -21,7 +21,17 @@ func (this *UserDao) Create(user *User) *User{
 	user.LastTime = time.Now()
 	user.Sort = time.Now().UnixNano() / 1e6
 
+	db := this.context.DB.Create(user)
+	this.PanicError(db.Error)
 
+	return user
+}
 
+func (this *UserDao) FindByEmail(email string) *User{
+	var user *User = &User{}
+	db := this.context.DB.Where(&User{Email:email}).first(user)
+	if db.Error != nil {
+		return nil
+	}
 	return user
 }
