@@ -45,6 +45,7 @@ func (this *Context) registerBean(bean interface{}) {
 	typeName := typeOf.String()
 
 	if element,ok := bean.(IBean);ok{
+		//LogDebug("-------------" + reflect.TypeOf(element).String() )
 		if _,ok:= this.BeanMap[typeName];ok{
 			LogError(fmt.Sprintf("【%s】已经被注册了，跳过。", typeName))
 		}else{

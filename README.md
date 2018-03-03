@@ -1,11 +1,13 @@
 
 # mytank
 
-go get github.com/json-iterator/go
-go get -u github.com/jinzhu/gorm
-go get github.com/nu7hatch/gouuid
+##### copy from https://github.com/eyebluecn/tank
 
+##### go get github.com/json-iterator/go
+##### go get -u github.com/jinzhu/gorm
+##### go get github.com/nu7hatch/gouuid
 
+```
 create database tank;
 
 grant all privileges on tank.* to 'tank'@'127.0.0.1' identified by 'tank123';
@@ -45,3 +47,4 @@ CREATE TABLE `tank10_session` (
     PRIMARY KEY (`uuid`),
     UNIQUE KEY `id_UNIQUE` (`uuid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='session表';
+```
